@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 public class CrashService {
 
-    private static final Logger log = LoggerFactory.getLogger(CrashService.class);
+    private static final Logger log = LoggerFactory.getLogger(PersonController.class);
 
     @Autowired
     AppConfig appConfig;
